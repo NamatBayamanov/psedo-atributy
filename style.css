@@ -1,0 +1,18 @@
+a[title] {
+  color: tomato;
+}
+
+a[href="#"] {
+  color: blue;
+}
+
+a[href^="www"] {
+  color: palevioletred;
+}
+
+a[href$="example"] {
+  color: peru;
+}
+a[href*="le"] {
+  font-size: 20px;
+}
