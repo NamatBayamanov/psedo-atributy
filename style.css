@@ -1,18 +1,18 @@
 a[title] {
-  color: tomato;
+  color: rgb(255, 71, 172);
 }
 
 a[href="#"] {
-  color: blue;
+  color: rgb(0, 255, 0);
 }
 
 a[href^="www"] {
-  color: palevioletred;
+  color: rgb(56, 220, 241);
 }
 
 a[href$="example"] {
   color: peru;
 }
-a[href*="le"] {
+a[href*="com"] {
   font-size: 20px;
 }
