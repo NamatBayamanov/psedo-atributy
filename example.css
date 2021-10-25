@@ -31,6 +31,6 @@ a[href^="www"] {
 a[href$="com"] {
   background-color: black;
 }
-a[href*=""] {
-  color: rgb(255, 255, 255);
+a[href*="#"] {
+  color: rgb(0, 225, 255);
 }
