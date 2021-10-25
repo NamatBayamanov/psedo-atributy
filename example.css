@@ -1,0 +1,36 @@
+a {
+  color: rgb(90, 40, 184);
+}
+a:link {
+  color: rgb(126, 217, 230);
+}
+a:visited {
+  font-size: 45px;
+  background-color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  background-color: red;
+  font-style: italic;
+}
+
+a[href] {
+  font-size: 25px;
+}
+
+a[href="flukeout.github.io"] {
+  background-color: tomato;
+}
+a[href^="www"] {
+  color: rgb(225, 0, 255);
+}
+a[href$="com"] {
+  background-color: black;
+}
+a[href*=""] {
+  color: rgb(255, 255, 255);
+}
